@@ -1,0 +1,70 @@
+
+header, footer {
+	background-image: url(../img/bg_header.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+header {
+	background-position: center;
+}
+
+header nav a, header .titre {
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+header .titre h1 {
+	font-weight: 500;
+}
+
+header .resa {
+	background-color: rgba(220, 220, 220, 0.7);
+}
+
+header .resa div input, header .resa select {
+	background: transparent;
+	border: none;
+}
+
+header form input:last-of-type {
+	border-radius: 0;
+}
+
+footer {
+	background-position: bottom;
+}
+
+
+
+
+#pageConnexion section div:first-of-type {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#pageConnexion .bloc1 {
+	background-image: url(../img/bg_inscript.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#pageConnexion .bloc2 {
+	background-image: url(../img/bg_connex.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+table img {
+	max-width: 300px;
+}
+
+td button {
+	background-color: transparent;
+}
+
+td button i {
+	font-size: 2rem;
+}
